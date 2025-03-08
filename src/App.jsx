@@ -4,8 +4,6 @@ import MovieLoading from "./components/MovieLoading";
 import { useDebounce } from "react-use";
 import MovieCard from "./components/MovieCard";
 import { getTradingMovies, updateSearchTermCount } from "./appWrite";
-import { Link } from "react-router";
-import { section } from "framer-motion/client";
 
 const API_BASE_URL = "https://api.themoviedb.org/3";
 const API_KEY = import.meta.env.VITE_TDMB_API_KEY;
