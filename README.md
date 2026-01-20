@@ -32,10 +32,11 @@ This project is a movie discovery application built with React and Vite. It allo
 
 ## Environment Variables
 
-- Create a .env file in the root of the project and add the following environment variables:
-
+- Create a `.env` file in the root of the project and add the following environment variables:
+```bash
 - VITE_TDMB_API_KEY=
 - API_KEY=
 - VITE_APPWRITE_ID=
 - VITE_APPWRITE_DB_ID=
 - VITE_APPWRITE_COLLECTION=
+```
